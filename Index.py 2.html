@@ -1,0 +1,117 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[2]:
+
+
+Hg = []
+Hg.append("Pazartesi")
+Hg.append("Salı")
+Hg.append("Çarşamba")
+Hg.append("Perşembe")
+Hg.append("Cuma")
+Hg.append("Cumartesi")
+Hg.append("Pazar")
+print(Hg)
+
+
+# In[4]:
+
+
+Hg = []
+Hg.append(".")
+Hg.append("Pazartesi")
+Hg.append("Salı")
+Hg.append("Çarşamba")
+Hg.append("Perşembe")
+Hg.append("Cuma")
+Hg.append("Cumartesi")
+Hg.append("Pazar")
+x = int(input("Kaçıncı gün"))
+print(Hg[x])
+
+
+# In[5]:
+
+
+meyve = []
+meyve.append("Elma")
+meyve.append("Armut")
+meyve.append("Portakal")
+meyve.append("Mandalina")
+x = input("Hangi meyveyi eklemek istersin?")
+meyve.append(x)
+print(meyve)
+
+
+# In[8]:
+
+
+meyve = []
+meyve.append("Elma")
+meyve.append("Armut")
+meyve.append("Portakal")
+meyve.append("Mandalina")
+print(len(meyve))
+del(meyve[len(meyve)-1])
+print(meyve)
+print(len(meyve))
+
+
+# In[9]:
+
+
+Hg = []
+Hg.append("Pazartesi")
+Hg.append("Salı")
+Hg.append("Çarşamba")
+Hg.append("Perşembe")
+Hg.append("Cuma")
+Hg.append("Cumartesi")
+Hg.append("Pazar")
+print(Hg[0],Hg[1],Hg[2])
+
+
+# In[14]:
+
+
+Hg = []
+Hg.append("Pazartesi")
+Hg.append("Salı")
+Hg.append("Çarşamba")
+Hg.append("Perşembe")
+Hg.append("Cuma")
+Hg.append("Cumartesi")
+Hg.append("Pazar")
+print(Hg[len(Hg)-2],Hg[len(Hg)-1])
+
+
+# In[16]:
+
+
+meyve = []
+meyve.append("Elma")
+meyve.append("Armut")
+meyve.append("Portakal")
+meyve.append("Ayva")
+print(meyve)
+meyve[0]= meyve[1]
+meyve[1]= meyve[3]
+meyve[2]= "Elma"
+meyve[3]= "Portakal"
+print(meyve)
+
+
+# In[13]:
+
+
+meyve = []
+meyve.append("Elma")
+meyve.append("Armut")
+meyve.append("Portakal")
+meyve.append("Ayva")
+print(meyve)
+x = int(input("Kaçıncı elemanı silmek istersin?"))
+del (meyve[x])
+print(meyve)
+
